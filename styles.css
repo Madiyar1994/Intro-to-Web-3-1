@@ -1,0 +1,111 @@
+
+
+.container{
+    width: 80%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navBar{
+    background-color: darkblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.menu{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu p{
+    margin-left: 20px;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.registration{
+    width: 20%;
+}
+
+.underReg{
+    width: 88%;
+    font-weight: 500;
+}
+
+button{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 20px 0 10px;
+}
+
+span{
+    color: blue;
+}
+
+.news{
+    width: 56%;
+}
+
+.underNews{
+    width: 96%;
+}
+
+.firstNews h2{
+    color: darkblue;
+}
+
+.underNews img{
+    width: 100%;
+}
+
+.secondNews h2{
+    color: darkblue;
+}
+
+.tableBar{
+    width: 24%;
+    font-size: 19px;
+    text-align: center;
+}
+
+.underTable{
+    width: 100%;
+}
+
+tr:first-child{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(n+2){
+    background-color: darkgreen;
+    color: white;
+}
+
+tr:nth-child(n+3){
+    background-color: chartreuse;
+    color: black;
+}
+
+tr:nth-child(n+6){
+    background-color: darkgrey;
+    color: black;
+}
+
+tr:nth-child(n+19){
+    background-color: plum;
+    color: black;
+}
